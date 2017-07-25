@@ -11,18 +11,19 @@ package person.pkg2;
  */
 public class Person2 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        int age = 14;
-        double height = 5.75;
-        String firstName = "Joseph";
-        String lastName = "Silvi";
-        boolean isAStudent = true;
-        System.out.println("My name is "+firstName+ " " + lastName);
-        Syste.out.println ()
-    }
+        int age ;
+        double height ;
+        String firstName ;
+        String lastName  ;
+        boolean isAStudent ;
+        String phoneNumber ;
+        String email ;
+       
+        
     
+    public Person2(String fn, String ln, String pn) {
+          String firstName ;
+        String lastName  ;
+        String phoneNumber ;
+    }
 }
