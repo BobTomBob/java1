@@ -23,16 +23,16 @@ public class HighOrLow {
         int guessAmount = 0;
         int numberGuess = 0;
         int hintAmount = 0;
-        System.out.println("I'm thinking of a number between 1 and 100!\n");
+        System.out.println("I'm thinking of a number between 1 and 100!");
         while (numberReal != numberGuess) {
             System.out.print("What number am I thinking of? ");
             numberGuess = Integer.parseInt(keyboard.nextLine());
             if (numberGuess < numberReal) {
-                System.out.println("Your guess is like the speed limit - Too Low.\n");
+                System.out.println("Your guess is like the speed limit - Too Low.");
                 guessAmount++;
             }
             if (numberGuess > numberReal) {
-                System.out.println("You're flying vertically in an F-22! - Too High.\n");
+                System.out.println("You're flying vertically in an F-22! - Too High.");
                 guessAmount++;
             }
             if (numberGuess == numberReal) {
