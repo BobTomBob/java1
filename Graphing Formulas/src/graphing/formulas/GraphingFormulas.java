@@ -53,10 +53,6 @@ public class GraphingFormulas {
             
            
 	}
-        
-         public static void formula ( double fx1, double fy1, double fx2, double fy2 )
-         { System.out.println("y="fx1*fx2);
-         
             
-         }
+         
 }
