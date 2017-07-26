@@ -78,9 +78,9 @@ public class Person2 {
         
     
     public Person2(String fn, String ln, String pn) {
-          String firstName=fn;
-        String lastName=ln  ;
-        String phoneNumber=pn ;
+          firstName=fn;
+        lastName=ln  ;
+         phoneNumber=pn ;
     }
     
 }

@@ -15,7 +15,7 @@ public class Phonebook {
     Person2[] PBList;
     int size;
     
-    public void Phonebook() {
+    public Phonebook() {
         size = 0;
         PBList = new Person2[100];
     }
@@ -23,7 +23,12 @@ public class Phonebook {
                 PBList[size]=p;
                 size++;
             }
-            public void countPeople(){
-                    for(int )
+            public void printEntries(){
+                 for (int i = 0; i<size;i++){
+            System.out.println(PBList[i].getLastName() + ", " + PBList[i].getFirstName() + " - Phone Number:" + PBList[i].getPhoneNumber());
             
+            }
+                    
+            }     
 }
+
