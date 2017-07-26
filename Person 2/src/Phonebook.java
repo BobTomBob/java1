@@ -25,7 +25,7 @@ public class Phonebook {
             }
             public void printEntries(){
                  for (int i = 0; i<size;i++){
-            System.out.println(PBList[i].getLastName() + ", " + PBList[i].getFirstName() + " - Phone Number:" + PBList[i].getPhoneNumber());
+            System.out.println(PBList[i].getLastName() + ", " + PBList[i].getFirstName() + " - Phone Number: s" + PBList[i].getPhoneNumber());
             
             }
                     
