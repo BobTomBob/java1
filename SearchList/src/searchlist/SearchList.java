@@ -49,6 +49,32 @@ public class SearchList {
             }
         }
         System.out.println("\n\nThe highest number is: " + maxnumber);
+        
+        ArrayList<String> a2 = new ArrayList();
+        a2.add("A");
+        a2.add(" bunch");
+        a2.add(" of");
+        a2.add(" revolutionary");
+        a2.add(" mansumission");
+        a2.add(" abolishionists,");
+        a2.add(" give");
+        a2.add(" me");
+        a2.add(" your");
+        a2.add(" position");
+        a2.add(" show");
+        a2.add(" me");
+        a2.add(" where");
+        a2.add(" the");
+        a2.add(" ammunition");
+        a2.add(" is!");
+      
+        ArrayList sorted = new ArrayList();
+        int alphaSort = 0;
+        for (int b : a2) {
+            if (b > alphaSort) {
+                alphaSort = b;
+            }
     }
 }
+    
 }
