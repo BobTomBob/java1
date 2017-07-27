@@ -28,7 +28,7 @@ public class ChooseYourOwnAdventure {
                 System.out.println("You are walking down a cold, grim, stuffy hallway filled with a faint scent of death.");
                 Thread.sleep(2000);
                 System.out.println("You must choose the correct path to the escape room. Or else...");
-                Thread.sleep(2500);
+                Thread.sleep(500);
                 System.out.println("...you shall perish in the most awful way possible.\n\n\n\n");
                 Thread.sleep(500);
                 System.out.println("You have 10 minutes to complete the mission.\n");
@@ -75,7 +75,7 @@ public class ChooseYourOwnAdventure {
                                     System.out.println("You safely boarded the elevator. It is dark and there is a horendous smell in the air. You go down to floor -6.\nThe elevator door fails to open. There are two auxillary hatches. Press 1 or 2");
                                     String door7 = keyboard.nextLine();
                                     if ((door6.equals("1"))) {
-                                        System.out.println("Good choice.");
+                                        System.out.println("Good choice. You now continue along the auxillary tunnel up to floor -5. You must choose");
                                     }
                                 }
 
