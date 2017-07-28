@@ -95,9 +95,21 @@ public class Calculator {
                 } else {
                     String num1 = input.substring(0, index);
                     String num2 = input.substring(index + 1, input.length());
-                    double division = Math.pow(Double.parseDouble(num1), Double.parseDouble(num2));
-                    System.out.println(division);
+                    double powr = Math.pow(Double.parseDouble(num1), Double.parseDouble(num2));
+                    System.out.println(powr);
                 }
+            } else if (input.contains("a") || input.contains("avg")) {
+                double sum = 0;
+                int numbers = 0;
+                input = keyboard.nextLine();
+                while (!input.contains("d")) {
+
+                    double d = Double.parseDouble(input);
+                    sum += d;
+                    numbers++;
+                    input = keyboard.nextLine();
+                }
+                System.out.println(sum / numbers);
             } else if (input.contains("m") || input.contains("M")) {
                 System.out.println("Welcome to the instructions for the calculator app.");
                 System.out.println("To add numbers together type them like this: '5+5' or '5T5'");
@@ -106,6 +118,7 @@ public class Calculator {
                 System.out.println("To divide numbers, type them like this: '5/5', '5x5' or '5÷5'");
                 System.out.println("To get the squareroot of a number, type  'z' or 'sqrt' before the number. Example:, 'z49'");
                 System.out.println("To raise a number to a power, type  '^' or 'power' between the numbers. Example:, '22^2'");
+                System.out.println("To get an average, type 'a' or 'avg' then press enter. Type each number one at a time and press enter after you type it. Once you input all of the desired numbers to be averaged type in 'd'");
 
             } else {
                 System.out.println("Sorry, the format is not supported.");
