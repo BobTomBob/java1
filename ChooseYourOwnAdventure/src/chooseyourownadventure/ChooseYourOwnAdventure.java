@@ -42,7 +42,7 @@ public class ChooseYourOwnAdventure {
 
                 if ((door1.equals("1"))) {
                     System.out.println("You have made it into room 84b");
-                    System.out.println("Now that you're in room two you must continue to either of the two doors. Press 1 or 2 to go into the corresponding hallway.");
+                    System.out.println("Now that you're in room 84b you must continue to either of the two doors. Press 1 or 2 to go into the corresponding hallway.");
                     String door2 = keyboard.nextLine();
                     if ((door2.equals("1"))) {
                         System.out.println("You have traveled into hall 2145g");
@@ -75,7 +75,7 @@ public class ChooseYourOwnAdventure {
                                     System.out.println("You safely boarded the elevator. It is dark and there is a horendous smell in the air. You go down to floor -6.\nThe elevator door fails to open. There are two auxillary hatches. Press 1 or 2");
                                     String door7 = keyboard.nextLine();
                                     if ((door6.equals("1"))) {
-                                        System.out.println("Good choice. You now continue along the auxillary tunnel up to floor -5. You must choose");
+                                        System.out.println("Good choice. You now continue along the auxillary tunnel up to floor -5. You must choose the correct path and avoid the Elephant's foot. \nIf you're wondering what the elephant's");
                                     }
                                 }
 
