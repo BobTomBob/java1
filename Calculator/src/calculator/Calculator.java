@@ -113,7 +113,7 @@ public class Calculator {
             } else if (input.contains("m") || input.contains("M")) {
                 System.out.println("Welcome to the instructions for the calculator app.");
                 System.out.println("To add numbers together, type them like this: '5+5' or '5T5'");
-                System.out.println("To subtract numbers,  type them like this: '5-5' or '5-5'");
+                System.out.println("To subtract numbers,  type them like this: '5-5' or '5_5'");
                 System.out.println("To multiply numbers together, type them like this: '5*5', '5x5' or '5X5'");
                 System.out.println("To divide numbers, type them like this: '5/5', '5x5' or '5÷5'");
                 System.out.println("To get the squareroot of a number, type  'z' or 'sqrt' before the number. Example:, 'z49'");
